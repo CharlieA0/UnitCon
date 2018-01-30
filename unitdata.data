@@ -1,0 +1,41 @@
+#WARNING! STRINGS OVER 1024 CHARACTERS OR TYPES WITH MORE THAN 1024 UNITS COULD CAUSE OVERFLOW PROBLEMS.
+#Change STR_MAX and/or UNIT_MAX in unitcon.c to exceed these limits.
+#
+#The format of units added here should be <unit> <linear translation of unit from standard> <quantity measured>.
+#The standard unit should be the first unit of that quantity and should define all other units.
+
+m m*1 length
+km m*.001 length
+cm m*100 length
+yd m*1.0936 length
+ft m*3.2808 length
+in m*39.3701 length
+mi m*.0006213 length
+
+kg kg*1 mass
+t kg*.001 mass
+g kg*1000 mass
+lb kg*2.2046 mass
+oz kg*35.274 mass
+
+L L*1 volume
+mL L*1000 volume
+gill L*8.4535 volume
+pt L*1.8161 volume
+qt L*.9080 volume
+gal L*.2270 volume
+bsh L*.02837 volume
+
+bmw bmw*1 car
+buggie bmw*.5 car
+jeep bmw*2 car
+
+cat cat*1 animal
+dog cat*2+1 animal
+pig cat*.5-2 animal
+
+ghost ghost*1 monster
+ghoul ghost*13 monster
+
+stove stove*1 appliance
+toaster stove*.15 appliance
